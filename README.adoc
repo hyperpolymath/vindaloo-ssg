@@ -1,59 +1,59 @@
-= easel-ssg
+= vindaloo-ssg
 :toc:
 :toc-title: Table of Contents
 :icons: font
 
-**Esoteric bitmap-based static site generation in Piet.**
-"Easel" — Where the source code is a masterpiece. A generator where the execution path is painted, not typed.
+**Non-deterministic functional-logic site generation in Curry.**
+"Vindaloo" — A spicy, multi-layered blend of Haskell-style functional purity and Prolog-style logical search.
 
 == Who Is This For?
-* **Esoteric Language Researchers** exploring non-textual programming paradigms.
-* **Visual Thinkers** who want to refactor their SSG logic using a paintbrush or image editor.
-* **Security Engineers** interested in visually-obfuscated build toolchains and steganographic logic.
-* **Architects** needing to prove that any Turing-complete medium can support the **poly-ssg** standard.
+* **Constraint-Satisfaction Enthusiasts** who want their SSG to "solve" for the best layout rather than just render it.
+* **Researchers** exploring the intersection of lazy evaluation, non-deterministic search, and logical variables.
+* **Architects** needing a generator capable of handling ambiguous content relationships and complex taxonomies.
+* **Teams** seeking a "search-first" approach to static content orchestration.
 
-== Why easel-ssg?
+== Why vindaloo-ssg?
 
-=== Chromatic Synthesis
-Your generator logic is defined by the transition of hue and lightness between adjacent colour blocks (codels). In `easel-ssg`, site transformations are not lines of code, but gradients of intent.
+=== Constraint-Based Synthesis
+Define your site structure as a set of constraints (e.g., "This post must be adjacent to a related image, and the total page-weight must not exceed 200kb"). The engine "searches" the solution space to generate the site automatically.
 
-=== Visual Immutability
-The source code is a `.png` bitmap. Unlike text-based scripts that can suffer from character-encoding rot, `easel-ssg` remains static and visually auditable. If the pixel hasn't changed, the logic hasn't changed.
+=== Functional Purity + Logical Search
+Leveraging the Curry language, you get the best of both worlds: the strictness of algebraic data types and the power of logical variables. This allows for complex, high-level site queries that are impossible in traditional imperative SSGs.
 
-=== Steganographic Metadata
-By leveraging the Piet paradigm, frontmatter and site schemas can be embedded directly into the visual noise of the generator's "background", blending site logic with site aesthetics.
+=== Non-Deterministic Layouts
+If a layout has multiple valid configurations, `vindaloo-ssg` can explore all possibilities (non-determinism). This is perfect for A/B testing or generating multiple variations of a site from a single source-logic core.
 
-=== Deterministic Colour-Cycles
-Piet’s execution relies on a Colour Pointer (CP) and a Direction Pointer (DP). `easel-ssg` maps these cycles to your site’s hierarchy, ensuring a predictable, cyclical build process that is mathematically sound.
+=== Deep Integration with poly-ssg
+While the core uses Curry's logic engine, it is bridged to the **poly-ssg-mcp** hub via **ReScript** on **Deno**, allowing modern AI agents to interact with the search-based build process.
 
 == Quick Start
 [source,oil]
 ----
-# Load the Piet VM environment via asdf
+# Setup the Curry environment (PAKCS or KiCS2) via asdf
 just setup
 
-# Process the source bitmap to synthesise the site
-# This executes the .png as a functional SSG core
-just build-from-art ./core/logic.png
+# Run the constraint-based build
+# The engine will 'solve' for the optimal site structure
+just build
 
-# Preview the visual source code
-just gallery
+# Type-check and verify constraints without building
+just check
 ----
 
 == Features
-* **Bitmap-Logic Core** - Execution path determined by colour-cycle transitions.
-* **Non-Textual Debugging** - Use standard image manipulation tools to refactor site logic.
-* **Podman-First** - Standard containerised toolchain for visual logic execution.
-* **Accessibility** - Native metadata support for **BSL**, **GSL**, **ASL**, and **Makaton**.
-* **Edge-Ready** - Highly portable VM core suitable for **Minix**, **Android**, and **ASICs**.
+* **Logic-Driven Routing** - Use logical variables to define dynamic site paths and relationships.
+* **Lazy Evaluation** - Only render what is strictly necessary to satisfy the current search constraints.
+* **Podman-First** - Isolated, containerised logic-search environments for **Linux**, **Minix**, and **PC**.
+* **Accessibility** - Integrated support for **BSL**, **GSL**, **ASL**, and **Makaton** metadata.
+* **Edge-Ready** - Verified for **ASICs** and **Edge tech** via efficient backend emission.
 
 == Requirements
-* **Piet Interpreter** (npiet or equivalent)
+* **PAKCS** or **KiCS2** (Curry Compilers)
+* **Deno** (for ReScript/MCP adapters)
 * **Just** (Orchestrator)
-* **ImageMagick** (For automated bitmap-to-logic verification)
 
 == Part of poly-ssg
-`easel-ssg` is the visual, esoteric member of the **poly-ssg** family, unified through **MCP** integration.
+`vindaloo-ssg` provides the constraint-logic and non-deterministic tier of the **poly-ssg** family.
 
 == License
 AGPL-3.0-or-later
